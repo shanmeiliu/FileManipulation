@@ -8,9 +8,13 @@ A good practice on tuple, dictionary, array
 You are giving three input file path and one output file path, your task is to processing three input files and merge them into one. The three files separately contain a list of questions, answers or a list of group labels, and they are marked with a unique group id. The info in each line is split by a symbol "##".
 
 Question file format:
+
 group id(Integer),question id(Integer),question(String)(this line is not in the file)
+
 123##1##how is the weather today.
+
 123##2##what's the weather like today.
+
 234##3##what's your name?
 
 answer file format:
